@@ -1,0 +1,291 @@
+@font-face {
+    font-family: nimbus;
+    src: url(./nimbus-sans-l.regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: nimbus;
+}
+.main{
+    width: 100%;
+}
+.home .nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 10vw;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid black; */
+}
+.nav a{
+    display: inline-block;
+}
+.nav .nleft{
+    display: flex;
+    gap: 2.5vw;
+}
+.nleft a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.nav .centeratag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+.nav .nright a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.hero{
+    width: 100%;
+    margin-top: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+.sustain{
+    width: 10vw;
+}
+.sustain p{
+    font-size: 14px;
+    font-weight: 800;
+    margin: 10px 0;
+    opacity: 0.7;
+}
+.sustain .susimgwrapper{
+    width: 100%;
+    height: 15vw;
+}
+.susimgwrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.ephemeral{
+    /* background-color: red; */
+    position: relative;
+    width: 25vw;
+    height: 40vw;
+}
+.ephemeral .headings{
+    position: absolute;
+    top: -13%;
+    left: -20%;
+}
+.ephemeral h1{
+    font-size: 5vw;
+    line-height: 5vw;
+    font-weight: 400;
+}
+.ephemeral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.ephemeral p{
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: -0.1px;
+    width: 50%;
+}
+
+.visit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.visit h3{
+    opacity: 0.5;
+}
+.visit i{
+    font-size: 2vw;
+}
+.motive{
+    margin: 7vw;
+}
+.motive h3{
+    opacity: 0.5;
+}
+.motive p{
+    padding: 10px 20px;
+    position: relative;
+    right: -24%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.motive span{
+    display: inline-block;
+    background-color: red;
+    margin: 0 10px;
+    border-radius: 100px;
+}
+.one{
+    width: 80px;
+    height: 45px;
+    background-image: url(https://images.unsplash.com/photo-1713208176490-3ac46ac160a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8);
+    background-position: center;
+    background-size: cover;
+}
+.two{
+    width: 70px;
+    height: 40px;
+    background-image: url(https://images.unsplash.com/photo-1713457708994-32f356465474?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+}
+.three{
+    width: 80px;
+    height: 45px;
+    background-image: url(https://images.unsplash.com/photo-1713204767316-87d43b68878d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0OHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+}
+.pictures{
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.first .picimg{
+    width: 17vw;
+    height: 24vw;
+    margin-bottom: 1vw;
+    background-color: red;
+    overflow: hidden;
+}
+.picimg img{
+    width: 129%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.first h1{
+    margin-bottom: 0.4vw;
+}
+.first p{
+    opacity: 0.8;
+    font-size: 13px;
+    line-height: 15px;
+    width: 35%
+}
+
+.second .picimgtwo{
+    width: 20vw;
+    height: 32vw;
+    margin-bottom: 1vw;
+    background-color: red;
+    overflow: hidden;
+}
+.picimgtwo img{
+    width: 129%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.second h1{
+    margin-bottom: 0.4vw;
+}
+.second p{
+    opacity: 0.8;
+    font-size: 13px;
+    line-height: 15px;
+    width: 50%;
+    
+}
+.banner{
+    margin-top: 8vw;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    /* justify-content: space-around; */
+}
+.bimg{
+    width: 65%;
+    height: 60vh;
+}
+.bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.btxt{
+    width: 35%;
+    padding: 0 3vw;
+}
+.btxt h1{
+    font-size: 2vw;
+    line-height: 2.3vw;
+}
+.btxt p{
+    width: 85%;
+    opacity: 0.8;
+    margin-top: 0.3vw;
+}
+.future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vw;
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+}
+.future video{
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 90dvh;
+    object-fit: cover;
+    object-position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.future .txtt{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999;
+}
+.txtt h1{
+    color: azure;
+    border-radius: 1px;
+}
+.txtt button{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 1vw;
+    padding: 1vw 2.7vw;
+    border-radius: 10px;
+    border: none;
+    opacity: 0.7;
+}
